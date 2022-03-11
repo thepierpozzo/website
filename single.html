@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.css" integrity="sha512-TZTUnuHs1njGko8PJqZlHzqZTZd880A+BvhR1jy1v4mWB4VFKVLG/eK9LYdDjxqNLmttSC1ygmqg6rkYjnEgaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    
+
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="single.html">Single</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="cta">
+            <a href="" class="button">Contatti</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+    </div>
+    </div>
+
+
+    <div class="hero hero--small">
+        <div class="hero__content">
+            <p class="intro-text">"Lavorare stanca"</p>
+            <h1 class="big-text">Benvenuto su thepierpozzo.com</h1>
+            <a href="" class="button">Scopri di più</a>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <h3 class="normal-text">Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quae quasi sunt vero reprehenderit laborum dicta nulla alias perspiciatis vel incidunt hic vitae pariatur asperiores quisquam, molestiae odio dolorum. Beatae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloribus, fugit officia, deserunt commodi sapiente nihil quidem natus iure a consequuntur adipisci repellendus culpa dolorem pariatur dignissimos quis est inventore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente est error dignissimos ad voluptatem omnis enim reprehenderit, totam exercitationem optio, veritatis earum saepe eum culpa. Non, eius consequuntur! Dolorum, repudiandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur quia quibusdam beatae nemo et, enim unde explicabo, quisquam quasi voluptates laboriosam, repellat dolor blanditiis voluptatem? Architecto illo nulla vel.</p>
+    </div>
+
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+        <div class="carousel-cell">Prova</div>
+    </div>
+
+<footer class="footer">
+    <div class="grid">
+        <div class="col">
+            <h4 class="normal-text tw">Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="col">
+            <h4 class="normal-text tw">Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="col">
+            <h4 class="normal-text tw">Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="col">
+            <h4 class="normal-text tw">Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $( document ).ready(function(){
+
+            $(".hamburger").on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            })
+        })
+    </script>
+
+
+</body>
+</html>
