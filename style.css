@@ -38,7 +38,7 @@ p{
     border-radius: 4px;
 }
 
-@media (max-width: 760px){
+@media (max-width: 600px){
     .big-text{
         font-size: 40px;
     }
@@ -82,7 +82,7 @@ p{
     display: none;
 }
 
-@media(max-width: 760px){
+@media(max-width: 600px){
 
 
     .cta{
@@ -163,7 +163,7 @@ p{
     position: relative;
 }
 
-@media (max-width:760px){
+@media (max-width:600px){
     .hero{
         flex-wrap: wrap;
     }
@@ -212,7 +212,7 @@ p{
     padding: 50px;
 }
 
-@media (max-width:760px){
+@media (max-width:600px){
     .poster{
         flex-wrap: wrap;
         height: auto;
@@ -246,7 +246,7 @@ p{
     align-items: center;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
     .bg-cover{
         flex-wrap: wrap; 
         height: auto;
@@ -268,7 +268,7 @@ p{
     width: 100%;
 }
 
-@media (max-width: 760px){
+@media (max-width: 600px){
     .grid{
         flex-wrap: wrap;
     }
@@ -345,7 +345,7 @@ p{
 .mt-1{margin-top: 50px;}
 .mt-2{margin-top: 100px;}
 .mt-3{margin-top: 150px;}
-@media (max-width: 760px){
+@media (max-width: 600px){
     .mt-sma-0{
         margin-top: 0;
     }
